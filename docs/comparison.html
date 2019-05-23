@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> Latitude Analysis Dashboard with Attitude </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="fluid.css">
+</head>
+<style>
+    h1 {
+      font-family: "Georgia", "Times New Roman", Times, serif;
+    }
+    span {background-color: #0bada6;
+      padding: 20px;
+    }
+    h3 {
+      font-family: "Georgia", "Times New Roman", Times, serif;
+    }
+</style>
+<body>
+  <div class="container-fluid"><!--container-->
+    <div class="d-flex mb-3">
+        <nav>
+            <ul class="logo"> 
+              <li><a href="index.html"><h1 class="logo"><span>Lattitude</span></h1></a></li>
+             </ul> 
+          </nav>
+        <div class="mr-auto p-2"></div>
+        <div class="p-2">
+            <div class="col-sm-2" style="background-color:white;">
+                <nav class="menu">
+                  <ul>
+                    <li class="sub-menu"><a href="#">Plots</a>
+                      <ul>
+                          <li><a href="maxtemp.html">Max Temperature</a></li>      
+                          <li><a href="humidity.html">Humidity</a></li>    
+                          <li><a href="cloudiness.html">Cloudiness</a></li>    
+                          <li><a href="windspeed.html">Wind Speed</a></li>
+                      </ul>
+                  </nav>
+                </div></div>
+        <div class="p-2">
+            <div class="col-sm-3" style="background-color:white;">
+                <nav class="menu">
+                  <ul>
+                    <li class=><a href="comparison.html">Comparison</a></li>
+                  </ul>
+                </nav>
+            </div>
+          </div>
+        <div class="p-2">
+            <div class="col-sm-1" style="background-color:white;">
+              <nav class="menu">
+              <ul>
+                <li class=><a href="data.html">Data</a></li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+      
+
+
+ 
+      </div>
+ <!--************************************************ Summary *************************************************************--> 
+      <br>
+     
+      <div class="container-fluid" id="Comparison"> <div class="row">
+            <div class="col-sm-12 col-md-12" style="background-color:white;"><!--column 1-->
+    
+    
+          <h2 style="color: #0bada6" >Summary: Latitude vs. X</h2>
+          <hr>
+          <p>Click any plot to get an in-depth analysis.</p>
+  
+          <div class="row" id="comparison-first-row">
+                <div class="col-sm-12 col-md-6">
+
+                  <h3 style="color: #0bada6">  vs. Max Temperature</h3>
+                  <a href="maxtemp.html"> <img style="float: left; margin: 0px 15px 15px 0px;" src = "../betadashboard/images/latvtempapism.jpg" width="500" height="331"></a>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                        <h3 style="color: #0bada6">vs. Humidity</h3>
+                  <a href="humidity.html"></a>
+                  <img style="float: left; margin: 0px 15px 15px 0px;" src="images/latvhumapism.jpg" width="500" height="331"></a>
+                </div>
+          </div>
+
+                <div class="row" id="comparison-second-row">
+                        <div class="col-sm-12 col-md-6"> 
+                                <h3 style="color: #0bada6"> vs. Cloudiness</h3>
+                          <a href="cloudiness.html"> <img style="float: left; margin: 0px 15px 15px 0px;" src = "../betadashboard/images/latvnocloudspism.jpg" width="500" height="331"></a>
+                        </div>
+                        <div class="col-sm-12 col-md-6"> 
+                                <h3 style="color: #0bada6"> vs. Wind Speed</h3>
+                            <a href="windspeed.html"> <img style="float: left; margin: 0px 15px 15px 0px;" src = "../betadashboard/images/latvwindspeedapism.jpg" width="500" height="350"></a>  
+                        </div>
+                      </div>
+
+      
+</body>
+</html>

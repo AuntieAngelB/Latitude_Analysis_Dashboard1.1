@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Cloudiness</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="fluid.css">
+</head>
+<style>
+    h1 {
+      font-family: "Georgia", "Times New Roman", Times, serif;;
+    }
+    span {background-color: #0bada6;
+      padding: 20px;
+    }
+</style>
+<body>
+  <div class="container-fluid"><!--container-->
+    <div class="d-flex mb-3">
+        <nav>
+            <ul class="logo"> 
+              <li><a href="index.html"><h1 class="logo"><span>Lattitude</span></h1></a></li>
+             </ul> 
+          </nav>
+        <div class="mr-auto p-2"></div>
+        <div class="p-2">
+            <div class="col-sm-2" style="background-color:white;">
+                <nav class="menu">
+                  <ul>
+                    <li class="sub-menu"><a href="#">Plots</a>
+                      <ul>
+                          <li><a href="maxtemp.html">Max Temperature</a></li>      
+                          <li><a href="humidity.html">Humidity</a></li>    
+                          <li><a href="cloudiness.html">Cloudiness</a></li>    
+                          <li><a href="windspeed.html">Wind Speed</a></li>
+                      </ul>
+                  </nav>
+                </div></div>
+        <div class="p-2">
+            <div class="col-sm-3" style="background-color:white;">
+                <nav class="menu">
+                  <ul>
+                    <li class=><a href="comparison.html">Comparison</a></li>
+                  </ul>
+                </nav>
+            </div>
+          </div>
+        <div class="p-2">
+            <div class="col-sm-1" style="background-color:white;">
+              <nav class="menu">
+              <ul>
+                <li class=><a href="data.html">Data</a></li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+      
+
+
+ 
+      </div>
+ <!--************************************************ Summary *************************************************************--> 
+      <br>
+     
+        <div class="row">
+            <div class="col-sm-12 col-md-7" style="background-color:white;"><!--column 1-->
+              <div class="container-fluid" id="col-one">
+                    <h2 style="color: #0bada6">Cloudiness<hr>
+                    </h2>
+                    <div>
+                            <img style="float: center; margin: 0px 15px 15px 0px;" src="images/latvnocloudspism.jpg"  class="img image-left" alt="City Latitude vs. Max Temperature" height="289" width="406"></div>
+                          <br>
+                  
+                        </div>
+
+          <h3 class="description">Cloudiness changes rapidly. Because of the hour to hour variability, looking at cloudiness at one point in time, a correlation to latitude may not be seen. Over time, however, such as observations over a year or decades for example, such a correlation may be seen.</h3>
+        <br>
+
+        <br style="clear: both;" />
+      </div><!--column 1-->
+      <div class="col-sm-12 col-md-5" style="background-color:white;"><!--Column2-->
+        <div class="container-fluid" id="col-two"></div>
+        <h2 style="color: #0bada6">Visualizations<hr>
+        </h2>
+            <br>
+      <div class="row">
+        <div class="column">
+            <a href="maxtemp.html">
+               <img src="images/latvtempapism.jpg" class ="img-thumbnail image-left img:hover" alt="Temperature"></a>
+              </div>
+              <div class="column">
+                <a href="humidity.html">
+               <img src="images/latvhumapism.jpg" class ="img-thumbnail image-left img:hover" alt="Humidity"></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column">
+                <a href="cloudiness.html">
+               <img src="images/latvnocloudspism.jpg" class ="img-thumbnail image-right img:hover" alt="cloudiness"></a>
+              </div>
+              <div class="column">
+                <a href="windspeed.html">
+               <img src="images/latvwindspeedapism.jpg" class ="img-thumbnail image-left img:hover" alt="Wind"></a>
+        </div>
+      </div>
+    </div><!--Column2-->
+  </div>
+
+  </div><!--row-->
+</div><!--container-->
+
+<!-- Footer -->
+<!-- 0 	#666666	rgb(102, 102, 102)	hsl(0, 0%, 40%) color for footer background -->
+<div style="background-color:#0bada6; padding:5px;"></div>
+
+<!-- Copyright -->
+<div style="background-color:#666666; padding:20px;"><li class="footer">© Copyright Coding Bootcamp 2017</li>
+  </div>
+  <!-- Copyright -->
+  <!-- Footer -->
+</body>
+</html>

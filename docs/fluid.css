@@ -1,0 +1,156 @@
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.h1 {
+  font-family: "Georgia", "Times New Roman", Times, serif;
+}
+.logo {
+  display:flex;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.logo {
+  display:flex;
+  list-style: none;
+  text-align: center;
+}
+
+.menu ul {
+  display:flex;
+  list-style: none;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 15px; 
+  flex-wrap: wrap;
+}
+
+
+.menu ul li > ul {
+  display: none;
+  flex-direction: column;
+}
+
+.menu ul li:hover > ul {
+  display: flex;
+}
+
+.menu a {
+  display: block;
+  background: white;
+  padding: 15px;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 15px; 
+}  
+.menu a:hover {
+  background: #ededed;
+  color: #666666;
+}
+.menu .sub-menu li > a {
+  background: white;
+  color: black;
+}
+.menu .sub-menu > a:after {
+  content: "+";
+  padding-left: 5px;
+}
+
+
+.h2 {
+color: #0bada6;
+}
+
+.description {
+font-family: Georgia, Times, "Times New Roman", serif;
+font-size: 18px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 2;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+  padding: 5px;}
+
+  .image-left     {text-align: left;}
+  .image-right    {text-align: right;}
+
+
+  .img-thumbnail {
+    border: 0;
+    border-radius: 0;
+    padding: 5px;
+    width: 150px;
+    margin: 15px;
+  }
+  
+  .img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+#col-one {
+  width:90%
+}
+
+#col-two {
+margin-left:25px;
+width:85%
+}
+.col-md-12 h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+#comparison {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+.comparison h3{
+    font-weight: bold;
+    font-size: 125%;
+    color: #0bada6;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 70px;
+    margin-right: 35px;
+}
+
+.footer {
+  color: white; 
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  Font-variant: normal;
+  font-weight: 400; 
+  line-height: 17px;
+
+  list-style-type: none;
+  text-align: center;
+}
+  
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
